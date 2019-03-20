@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         
         print("You Click Register")
-        
+        performSegue(withIdentifier: "GeRegister", sender: self)
     }
     
 
