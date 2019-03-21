@@ -66,6 +66,14 @@ class RegisterViewController: UIViewController {
         
     } // myAlert
     
+    func uploaData(name: String, user : String,password : String) -> Void {
+        
+        let urlString: String = "https://www.androidthai.in.th/snru/addDataKENG.php?isAdd=true&Name=\(name)&User=\(user)&Password=\(password)"
+        
+        
+        
+    }
+    
     
     @IBAction func backButton(_ sender: UIBarButtonItem) {
         
