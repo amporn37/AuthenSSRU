@@ -33,18 +33,28 @@ class RegisterViewController: UIViewController {
         
         let name = nameTextField.text!
         let user = userTextField.text!
-        let Password = PasswordTextField.text!
+        let password = PasswordTextField.text!
         
         
         
         
         print("name = \(name)")
         print("user = \(user)")
-        print("Password = \(Password)")
+        print("Password = \(password)")
+        
+        if (name.count == 0) || (user.count == 0) || (password.count == 0){
+            myAlert(titleString: "Have Space", messageString: "Please Fill AII Blank")
+        } else {
+            
+        }
         
         
         
+    } //upload Buttom
+    
+    func myAlert(titleString: String, messageString: String) -> Void {
         
+        print("title = \(titleString), message = \(messageString)")
         
     }
     
