@@ -125,8 +125,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pHc-yX-wVZ">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pHc-yX-wVZ">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.19177059120000001" green="1" blue="0.10206803709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
@@ -144,60 +145,37 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WaIIpaper" translatesAutoresizingMaskIntoConstraints="NO" id="sff-Av-ebF">
+                            <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WaIIpaper" translatesAutoresizingMaskIntoConstraints="NO" id="sff-Av-ebF">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XJK-w9-ytM">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XJK-w9-ytM">
                                 <rect key="frame" x="85" y="140" width="244" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="244" id="nCZ-42-d4g"/>
-                                    <constraint firstAttribute="height" constant="30" id="pCG-ga-5cc"/>
-                                </constraints>
                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TkY-da-yPI">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TkY-da-yPI">
                                 <rect key="frame" x="85" y="178" width="244" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="dGL-gT-x4l"/>
-                                    <constraint firstAttribute="width" constant="244" id="zaf-ao-cL7"/>
-                                </constraints>
                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-te-eJ3">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-te-eJ3">
                                 <rect key="frame" x="85" y="216" width="244" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="DeB-ci-aNf"/>
-                                    <constraint firstAttribute="width" constant="244" id="UCC-sS-Gtb"/>
-                                </constraints>
                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="TkY-da-yPI" firstAttribute="centerX" secondItem="8XE-QA-dRu" secondAttribute="centerX" id="2gL-lE-2eT"/>
-                            <constraint firstItem="pHc-yX-wVZ" firstAttribute="trailing" secondItem="9Cv-92-8wB" secondAttribute="trailing" id="5at-Q1-aBV"/>
-                            <constraint firstItem="sff-Av-ebF" firstAttribute="top" secondItem="pHc-yX-wVZ" secondAttribute="bottom" id="A9T-Mb-ccc"/>
-                            <constraint firstItem="pHc-yX-wVZ" firstAttribute="top" secondItem="9Cv-92-8wB" secondAttribute="top" id="I9S-xH-BP2"/>
-                            <constraint firstItem="XJK-w9-ytM" firstAttribute="centerX" secondItem="8XE-QA-dRu" secondAttribute="centerX" id="PGm-lq-VUd"/>
-                            <constraint firstItem="TkY-da-yPI" firstAttribute="top" secondItem="XJK-w9-ytM" secondAttribute="bottom" constant="8" id="Rdq-M2-uzV"/>
-                            <constraint firstItem="sff-Av-ebF" firstAttribute="bottom" secondItem="9Cv-92-8wB" secondAttribute="bottom" id="W8s-dw-yer"/>
-                            <constraint firstItem="sff-Av-ebF" firstAttribute="trailing" secondItem="9Cv-92-8wB" secondAttribute="trailing" id="Xug-51-lPj"/>
-                            <constraint firstItem="XJK-w9-ytM" firstAttribute="top" secondItem="pHc-yX-wVZ" secondAttribute="bottom" constant="52" id="aLM-y2-xpy"/>
-                            <constraint firstItem="sff-Av-ebF" firstAttribute="leading" secondItem="9Cv-92-8wB" secondAttribute="leading" id="cWA-6Z-9hu"/>
-                            <constraint firstItem="pHc-yX-wVZ" firstAttribute="leading" secondItem="9Cv-92-8wB" secondAttribute="leading" id="fcx-Sp-ew0"/>
-                            <constraint firstItem="RC3-te-eJ3" firstAttribute="top" secondItem="TkY-da-yPI" secondAttribute="bottom" constant="8" id="gOd-j0-DvV"/>
-                            <constraint firstItem="RC3-te-eJ3" firstAttribute="centerX" secondItem="8XE-QA-dRu" secondAttribute="centerX" id="k15-Eo-2Lm"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9Cv-92-8wB"/>
                     </view>
                     <connections>

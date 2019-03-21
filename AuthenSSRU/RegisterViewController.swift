@@ -18,6 +18,9 @@ class RegisterViewController: UIViewController {
     
     
     @IBAction func uploadButton(_ sender: UIBarButtonItem) {
+        
+        print("You Click Upload")
+        
     }
     
     
